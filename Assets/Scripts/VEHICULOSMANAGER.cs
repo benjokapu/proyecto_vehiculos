@@ -10,7 +10,12 @@ public class VEHICULOSMANAGER : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Cant ruedas: " + vehiculoScript.cantRuedas);
+        int CantRuedasVehiculos = vehiculoScript.cantRuedas;
+        Debug.Log("Cant ruedas: " + CantRuedasVehiculos);
+        if (CantRuedasVehiculos < 6)
+        {
+            vehiculoScript.gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame

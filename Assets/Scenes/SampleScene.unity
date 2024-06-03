@@ -394,6 +394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bda9dd196321714195a1d54517c752b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantRuedas: 4
+  cantRuedas: 6
   precioAlquiler: 100
   CartelPromo: {fileID: 0}
